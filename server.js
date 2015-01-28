@@ -7,4 +7,7 @@ app.get('/', function(request, response){
 app.get('/poisedmallard', function(request, response){
     response.send('Poised Mallard');
 });
+app.get('/poisedmallard', function(request, response){
+    response.send('Poised Mallard');
+});
 app.listen(process.env.PORT || 4000);
